@@ -1,0 +1,92 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+}
+
+body {
+  font-family: "Monsterat", sans-serif;
+}
+
+#header {
+  padding: 10px 0;
+}
+#header .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#header .header--logo {
+  display: flex;
+  align-items: center;
+}
+#header .header--logo h1 {
+  font-size: 13px;
+  color: #0C76D8;
+  text-transform: uppercase;
+}
+#header .header--logo h2 {
+  font-weight: 400;
+  font-size: 11px;
+  color: #2A2D46;
+}
+#header .header--text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#header .header--text p {
+  padding: 0 20px;
+  font-size: 12px;
+  color: #2A2D46;
+  transition: 0.5s;
+  cursor: text;
+}
+#header .header--text p:hover {
+  color: blue;
+}
+#header .header--text span {
+  font-weight: 700;
+  font-size: 13px;
+  color: #2A2D46;
+}
+#header .header--ion {
+  display: flex;
+  align-items: center;
+}
+#header .header--ion button {
+  font-weight: 700;
+  font-size: 11px;
+  color: #EB2D66;
+  border: 1px solid #EB2D66;
+  padding: 10px 25px;
+  background: transparent;
+}
+#header .header--ion ion-icon {
+  color: #EB2D66;
+  font-size: 29px;
+  margin: 0 20px;
+}
+#header .header--ion select {
+  border: none;
+  outline: none;
+  background: transparent;
+  font-weight: 700;
+  font-size: 12px;
+  color: #2A2D46;
+}
+
+/*# sourceMappingURL=phone.css.map */

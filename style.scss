@@ -1,0 +1,148 @@
+@import "reset";
+@import "mixin";
+
+#header {
+  padding: 10px 0;
+  .header {
+    @include se;
+
+    &--logo {
+@include df;
+
+      h1{
+        font-size: 13px;
+        color: #0C76D8;
+        text-transform: uppercase;
+      }
+      h2 {
+        font-weight: 400;
+        font-size: 11px;
+        color: #2A2D46;
+      }
+    }
+
+    &--text {
+      @include sb;
+      p {
+        padding: 0 20px;
+        font-size: 12px;
+        color: #2A2D46;
+        transition: .5s;
+        cursor: text;
+        &:hover {
+          color: blue;
+        }
+      }
+      span {
+        font-weight: 700;
+        font-size: 13px;
+        color: #2A2D46;
+      }
+
+      }
+      &--ion {
+        @include df;
+        button {
+          font-weight: 700;
+          font-size: 11px;
+          color: #EB2D66;
+          border: 1px solid #EB2D66;
+          padding: 10px 25px;
+          background: transparent;
+      }
+        ion-icon {
+          color: #EB2D66;
+          font-size: 29px;
+          margin:  0 20px;
+        }
+        select {
+          border: none;
+          outline: none;
+          background: transparent;
+          font-weight: 700;
+          font-size: 12px;
+          color: #2A2D46;
+        }
+
+      }
+    }
+
+  }
+
+#hero{
+  padding-top: 50px;
+  .hero{
+    @include sb;
+    &--left {
+      h1 {
+        font-weight: 900;
+        font-size: 36px;
+        line-height: 44px;
+        color: #2A2D46;
+      }
+       p{
+         margin: 10px 0;
+         width: 360px;
+         font-weight: 400;
+         font-size: 16px;
+         line-height: 23px;
+         color: #2A2D46;
+       }
+      button {
+        background: #EB2D66;
+        box-shadow: 0 7px 35px rgba(235, 45, 102, 0.35);
+        padding: 10px 30px;font-weight: 900;
+        font-size: 15px;
+        color: #FFFFFF;
+      }
+    }
+    &--right {
+      padding-left: 100px;
+      position: relative;
+      &__img {
+
+      }
+      &__drone {
+        top: 60px;
+        position: absolute;
+        right: 150px;
+      }
+      &__title {
+        position: absolute;
+        bottom: 45px;
+        right: 100px;
+      }
+        h1 {
+          font-weight: 900;
+          font-size: 15px;
+          color: #FFFFFF;
+        }
+        p{
+          width: 140px;
+          font-weight: 400;
+          font-size: 12px;
+          line-height: 15px;
+          padding: 10px 0;
+          color: #FFFFFF;
+        }
+        h4 {
+          font-weight: 700;
+          font-size: 12px;
+          color: #FFFFFF;
+        }
+      }
+    }
+}
+
+#iphone{
+  .iphone{
+    &--block{
+      height: 487px;
+      width: 270px;
+      border: 1px solid #FFFFFF;
+      box-shadow: 0 15px 50px rgba(67, 76, 109, 0.08);
+
+    }
+  }
+}
+
